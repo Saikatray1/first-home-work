@@ -5,28 +5,15 @@
 }
 
 .header-section {
-  background-image: url('/images/banner/banner2.png');
+  background-image: url("./images/banner/banner2.png");
   height: 800px;
   background-repeat: no-repeat;
-  background-size:cover;
+  background-size: cover;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: flex-end;
-  
-
-
 }
-
-/* 
-.header-section {
-  background-image: url('/images/banner/banner2.png');
-  height: 800px;
-  background-repeat: no-repeat;
-  background-size:cover;
-  display: flex;
-
-} */
 
 .header-heading {
   color: #151414;
@@ -34,23 +21,19 @@
   font-size: 45px;
   text-align: end;
   margin-right: 50px;
-  
- 
 }
 
 .header-para {
-  color:  #444343;
+  color: #444343;
   font-weight: 400;
   font-size: 16px;
   text-align: right;
   margin-right: 50px;
   margin-top: 20px;
-
-
 }
 
 .header-button {
-  background-color: #F15B22;
+  background-color: #f15b22;
   color: #ffff;
   font-size: 16px;
   font-weight: 200;
@@ -59,7 +42,8 @@
   border-radius: 5px;
   margin-right: 50px;
   margin-top: 20px;
-} */
+}
+*/
 
 /* 
 main css
@@ -67,32 +51,30 @@ main css
  .banner1-section {
   margin-left: 100px;
   margin-right: 100px;
-  
- }
+}
 
- .banner1 {
+.banner1 {
   display: flex;
-  justify-content: space-between ;
+  justify-content: space-between;
   align-items: center;
   gap: 80px;
- }
+}
 
- .banner1-image {
-  
- }
+.banner1-image {
+}
 
- .banner1-h3 {
+.banner1-h3 {
   font-size: 40px;
   font-weight: 700;
   margin-bottom: 20px;
- }
+}
 
- .banner1-para {
+.banner1-para {
   font-size: 16px;
   font-weight: 200;
   color: #444343;
   margin-bottom: 20px;
- }
+}
 
 .banner1-info {
   font-size: 16px;
@@ -101,66 +83,61 @@ main css
 }
 
 .fa-solid fa-check {
-  
 }
 
 /* 
 banner2 css
  */
- .banner2-section {
+.banner2-section {
   margin-left: 150px;
   margin-right: 70px;
   margin-top: 100px;
-  
- }
+}
 
-
- .banner2 {
+.banner2 {
   display: flex;
   gap: 100px;
   justify-content: space-between;
   text-align: center;
- }
+}
 
- .banner2-tittle {
+.banner2-tittle {
   font-size: 40px;
   font-weight: 700;
   text-align: center;
   margin-bottom: 50px;
- }
+}
 
- /*
+/*
   banner3 css
  */
- .banner3-section {
+.banner3-section {
   margin-left: 150px;
   margin-right: 70px;
+}
+
+.banner3 {
   
- }
-
-
- .banner3 {
-  background-image: url('/images/watch.png'), linear-gradient(red, yellow);
+  background-image: url('./images/watch.png'),  linear-gradient(to right, red , yellow);
   height: 200px;
   background-repeat: no-repeat;
   background-size: cover;
-  
+
   min-height: 300px;
   margin-top: 80px;
   margin-bottom: 100px;
-  margin-left:;
+  margin-left: ;
+}
 
- }
-
- .banner3-h2 {
+.banner3-h2 {
   font-size: 40px;
   font-weight: 400;
   color: #ffff;
   margin-left: 30px;
- }
+}
 
- .banner3-button {
-  color: #F15B22;
+.banner3-button {
+  color: #f15b22;
   font-size: 18px;
   font-weight: 600;
   background-color: #ffff;
@@ -170,87 +147,83 @@ banner2 css
   padding: 10px 15px;
   margin-left: 30px;
   margin-top: 15px;
- }
+}
 
- /*
+/*
   footer-section
   */
 
-  .footer-section {
-    
-    background-color: #151414;
-    margin-bottom: 50px;
-    height: 500px;
-  }
+.footer-section {
+  background-color: #151414;
+  margin-bottom: 50px;
+  height: 500px;
+}
 
-  .footer-info {
-    display: flex;
-  }
+.footer-info {
+  display: flex;
+}
 
-  .footer-h2 {
-    color: #ffff;
-    font-size: 45px;
-    font-weight: 700;
-    margin-top: 50px;
-    margin-left: 50px;
-    margin-bottom: 20px;
-  }
+.footer-h2 {
+  color: #ffff;
+  font-size: 45px;
+  font-weight: 700;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
 
-  .footer-para {
-    color: #ffff;
-    font-size: 14px;
-    font-weight: 400;
-    margin-left: 50px;
-  }
+.footer-para {
+  color: #ffff;
+  font-size: 14px;
+  font-weight: 400;
+  margin-left: 50px;
+}
 
-  .email {
-    color: #ffff;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 50px;
-  }
+.email {
+  color: #ffff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 50px;
+}
 
-  .phone {
-    color: #ffff;
-    margin-left: 50px;
-    
-  }
+.phone {
+  color: #ffff;
+  margin-left: 50px;
+}
 
-  .footer-h3 {
-    font-size: 20px;
-    color: #ffff;
+.footer-h3 {
+  font-size: 20px;
+  color: #ffff;
   margin-bottom: 30px;
   margin-top: 70px;
-  }
-  #email {
-    background: none;
-    color: #ffff;
-  }
-  input  {
-    border: 2px solid rgba(147, 142, 142, 0.811);
-    padding: 10px 8px;
-    border-radius: 7px;
-    color: #ffff;
-    margin-bottom: 15px;
-  }
+}
+#email {
+  background: none;
+  color: #ffff;
+}
+input {
+  border: 2px solid rgba(147, 142, 142, 0.811);
+  padding: 10px 8px;
+  border-radius: 7px;
+  color: #ffff;
+  margin-bottom: 15px;
+}
 
-  .footer-images {
-    margin-left: 50px;
-  }
+.footer-images {
+  margin-left: 50px;
+}
 
-  
-  /.footer-images1 {
-    margin-left: 5px;
-  }
+/.footer-images1 {
+  margin-left: 5px;
+}
 
-  
-  .footer-images2 {
-    margin-left: 5px;
-    margin-top: 15px;
-  } 
-  .footer-button {
-    color:#F15B22;
-    background-color: #ffff;
-    padding: 10px 15px;
-    border-radius: 5px;
-  }
+.footer-images2 {
+  margin-left: 5px;
+  margin-top: 15px;
+}
+.footer-button {
+  color: #f15b22;
+  background-color: #ffff;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
